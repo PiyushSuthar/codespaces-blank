@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Toolzar",
+    "slug": "toolzar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/toolzar_icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#181717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#181717"
+      },
+      "package": "com.piyushsthr.toolzar",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "androidStatusBar": {
+      "backgroundColor": "#302f2f",
+      "translucent": false
+    }
+  }
+}
